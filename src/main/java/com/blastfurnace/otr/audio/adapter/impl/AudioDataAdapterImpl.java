@@ -6,12 +6,12 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.blastfurnace.otr.api.response.GenericResponse;
 import com.blastfurnace.otr.audio.adapter.AudioDataAdapter;
 import com.blastfurnace.otr.audio.service.AudioDataService;
 import com.blastfurnace.otr.data.audiofile.model.AudioFileProperties;
-import com.blastfurnace.otr.rest.request.QueryData;
 import com.blastfurnace.otr.service.payload.PayloadWithCount;
-import com.blastfurnace.otr.service.response.GenericResponse;
+import com.blastfurnace.otr.service.request.QueryData;
 
 
 @Component("AudioDataAdapter")

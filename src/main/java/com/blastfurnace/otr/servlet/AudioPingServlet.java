@@ -4,9 +4,10 @@ import javax.servlet.annotation.WebServlet;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.blastfurnace.otr.api.response.GenericResponse;
 import com.blastfurnace.otr.audio.service.AudioDataService;
 import com.blastfurnace.otr.data.audiofile.model.AudioFileProperties;
-import com.blastfurnace.otr.service.response.GenericResponse;
+import com.blastfurnace.otr.util.servlet.PingServlet;
 
 @WebServlet("/ping")
 public class AudioPingServlet extends PingServlet {

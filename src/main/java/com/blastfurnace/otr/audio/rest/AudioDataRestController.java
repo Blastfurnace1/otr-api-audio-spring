@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.blastfurnace.otr.api.response.GenericResponse;
 import com.blastfurnace.otr.audio.adapter.AudioDataAdapter;
 import com.blastfurnace.otr.data.audiofile.model.AudioFileProperties;
-import com.blastfurnace.otr.rest.request.QueryData;
 import com.blastfurnace.otr.service.payload.PayloadWithCount;
-import com.blastfurnace.otr.service.response.GenericResponse;
+import com.blastfurnace.otr.service.request.QueryData;
 
 @RestController
 @RequestMapping("/rest/audio")
